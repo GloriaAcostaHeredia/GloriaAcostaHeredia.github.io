@@ -22,7 +22,9 @@ $stmt->bind_param("sssssss", $fecha, $nombre, $horario, $email, $tramite, $telef
 
 // Ejecutar la consulta
 if ($stmt->execute()) {
-    echo "La reserva se guardó correctamente.";
+    // Redireccionar a la página de verificación y edición
+    header("Location: confirmacion_datos.php");
+    exit(); // Asegurar que se detiene la ejecución del script después de la redirección
 } else {
     echo "Error al guardar la reserva: " . $stmt->error;
 }
