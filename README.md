@@ -1,2 +1,2 @@
 # GloriaAcostaHeredia.github.io
-Proyecto Pagina Web Desarrollo de Interfaces
+Proyecto Escolar Pagina Web Desarrollo de Interfaces
